@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:state_enabled="false">
+		<shape android:shape="rectangle">
+    		<stroke android:color="#999999" android:width="1dp"/><!-- Stroke-->
+    		<solid android:color="#999999"/><!-- Fill -->
+    		<corners android:radius="3dp" />
+    		<padding android:left="10dp" android:top="10dp" android:right="10dp" android:bottom="10dp" />    
+		</shape>
+	</item>
+    <item android:state_pressed="true">
+    	<shape android:shape="rectangle">
+    		<stroke android:color="@color/button_active_border" android:width="1dp"/><!-- Stroke-->
+    		<solid android:color="@color/button_active_background"/><!-- Fill -->
+    	    <corners android:radius="3dp" />
+    	    <padding android:left="10dp" android:top="10dp" android:right="10dp" android:bottom="10dp" />    
+		</shape>
+	</item>
+    <item android:state_focused="true">
+    	<shape android:shape="rectangle">
+    		<stroke android:color="@color/button_focus_border" android:width="1dp"/><!-- Stroke-->
+    		<solid android:color="@color/button_focus_background"/><!-- Fill -->
+    		<corners android:radius="3dp" />
+    		<padding android:left="10dp" android:top="10dp" android:right="10dp" android:bottom="10dp" />    
+		</shape>
+	</item>
+    <item>
+    	<shape android:shape="rectangle">
+    		<stroke android:color="@color/button_normal_border" android:width="1dp"/><!-- Stroke-->
+    		<solid android:color="@color/button_normal_background" /><!-- Fill -->
+    		<corners android:radius="3dp" />
+    		<padding android:left="10dp" android:top="10dp" android:right="10dp" android:bottom="10dp" />    
+		</shape>
+	</item>
+</selector>

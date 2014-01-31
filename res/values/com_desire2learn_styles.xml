@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="branded_main_text">        
+        <item name="android:textColor">@color/branded_main_font</item>
+        <item name="android:shadowColor">@color/branded_main_font_dropshadow</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    <style name="branded_button">        
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:textColor">@color/branded_button_text</item>
+        <item name="android:background">@drawable/branded_button_background</item>
+    </style>
+    <style name="branded_button_nopadding">        
+        <item name="android:textColor">@color/branded_button_text</item>
+        <item name="android:background">@drawable/branded_button_background</item>
+    </style>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- VALUES in this file should not be used directly.  Use the resources in /color and /drawable -->
+<resources>
+	<!-- @Deprecated. Do not use this value directly.  Use R.style.branded_button; -->
+	<color name="button_normal_background">#FFC0C0C0</color>
+		
+	<!-- @Deprecated. Do not use this value directly.  Use R.style.branded_button; -->
+	<color name="button_focus_background">#FF6782AE</color>
+	
+	<!-- @Deprecated. Do not use this value directly.  Use R.style.branded_button; -->
+	<color name="button_active_background">#FF2B4767</color>
+	
+	<!-- @Deprecated. Do not use this value directly.  Use R.style.branded_button; -->
+	<color name="button_normal_font">#2B4767</color>
+	
+	<!-- @Deprecated. Do not use this value directly.  Use R.style.branded_button; -->
+	<color name="button_focus_font">#FFFFFF</color>
+	
+	<!-- @Deprecated. Do not use this value directly.  Use R.style.branded_button; -->
+	<color name="button_active_font">#FFFFFF</color>
+
+	<!-- @Deprecated. Do not use this value directly.  Use R.style.branded_button; -->
+	<color name="button_focus_border">#00000000</color>
+	
+	<!-- @Deprecated. Do not use this value directly.  Use R.style.branded_button; -->
+	<color name="button_normal_border">#00000000</color>
+	
+	<!-- @Deprecated. Do not use this value directly.  Use R.style.branded_button; -->
+	<color name="button_active_border">#00000000</color>
+	
+	<!-- @Deprecated. Do not use this value directly.  Use R.drawable.branded_list_background. -->
+	<color name="list_normal_background">#C8FFFFFF</color>
+	
+	<!-- @Deprecated. Do not use this value directly.  Use R.drawable.branded_list_background. -->
+	<color name="list_focus_background">#FFFFFFFF</color>
+	
+	<!-- @Deprecated. Do not use this value directly.  Use R.drawable.branded_list_background. -->
+	<color name="list_active_background">#FFF3901D</color>
+	
+	<!-- @Deprecated. Do not use this value directly.  Use R.color.branded_list_text; -->
+	<color name="list_normal_font">#2A2A2A</color>
+	
+	<!-- @Deprecated. Do not use this value directly.  Use R.color.branded_list_text; -->
+	<color name="list_focus_font">#2A2A2A</color>
+	
+	<!-- @Deprecated. Do not use this value directly.  Use R.color.branded_list_text; -->
+	<color name="list_active_font">#2A2A2A</color>
+	
+	<!-- @Deprecated. Do not use this value directly.  Use R.drawable.branded_list_background. -->
+	<color name="list_normal_border">#00FFFFFF</color>
+	
+	<!-- @Deprecated. Do not use this value directly.  Use R.drawable.branded_list_background. -->
+	<color name="list_focus_border">#FFFFFFFF</color>
+	
+	<!-- @Deprecated. Do not use this value directly.  Use R.drawable.branded_list_background. -->
+	<color name="list_active_border">#FFF3901D</color>
+	
+	<!-- @Deprecated. Do not use this value directly. Use R.styles.main_text. -->
+	<color name="branded_main_font">#2B4767</color>
+	
+	<!-- @Deprecated. Do not use this value directly. Use R.styles.main_text. -->
+	<color name="branded_main_font_dropshadow">#FFFFFF</color>
+</resources>

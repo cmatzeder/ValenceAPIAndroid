@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.desire2learn.android.sdk"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="7" />
+	
+	<application android:icon="@drawable/generic_android_app_icon" android:label="Desire2Learn Module Test Launcher">
+    
+        <!-- 
+    		Copy and modify following Activity into your Module AndroidManifest.xml
+    		to test your module within our test harness.
+    		
+    		** BEGIN Section to Copy **
+    	 -->
+        <activity android:name="com.desire2learn.android.sdk.test.LaunchModuleActivity"
+                  android:label="Desire2Learn Module Test Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+            <!-- 
+            	REQUIRED:
+            	
+            	"module_classname" should contain the first activity of your module
+            	"module_title" is the button title defined by the App Builder for this module             
+            -->
+            <meta-data android:name="module_classname" android:value="com.desire2learn.android.sdk.sample.MainActivity"/>
+            <meta-data android:name="module_title" android:value="My Module Title"/>
+            
+            <!-- 
+                OPTIONAL:
+                If your modules has setup parameters, you can fill them in
+                here and it will be passed to your activity in the
+                Intent as a android.os.Bundle of Strings.
+                                
+                Note: 
+                To ensure meta-data is submitted only as Strings, 
+                prefix ambiguous values like numbers or booleans 
+                with '\ '.
+                
+                Ref: http://stackoverflow.com/questions/2154945/how-to-force-a-meta-data-value-to-type-string
+                
+                Examples:
+                <meta-data android:name="zip" android:value="\ 98052"/>
+                <meta-data android:name="use_metric" android:value="\ true"/>
+                <meta-data android:name="language" android:value="English"/>
+            -->            
+            <meta-data android:name="tolanguage" android:value="FRENCH"/>
+            <meta-data android:name="fromlanguage" android:value="ENGLISH"/>
+            
+        </activity>
+        <!-- ** END Section to Copy **-->
+        
+	</application>
+</manifest>
